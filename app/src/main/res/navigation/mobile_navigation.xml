@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.live.programming.an21_functionalapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.live.programming.an21_functionalapp.ui.courses.CoursesFragment"
+        android:label="@string/menu_courses"
+        tools:layout="@layout/fragment_courses" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.live.programming.an21_functionalapp.ui.quiz.QuizFragment"
+        android:label="@string/menu_quiz"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.live.programming.an21_functionalapp.ui.profile.DownloadFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/fragment_download" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.live.programming.an21_functionalapp.ui.profile.ProfileActivity"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <dialog
+        android:id="@+id/nav_sign_out"
+        android:name="com.live.programming.an21_functionalapp.ui.profile.SignOutFragment"
+        android:label="@string/menu_sign_out"
+        tools:layout="@layout/fragment_sign_out" />
+
+</navigation>

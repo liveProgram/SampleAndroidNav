@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384128229474",
+    "project_id": "functionalapp-e14e1",
+    "storage_bucket": "functionalapp-e14e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384128229474:android:9db9e378a85addad4d313b",
+        "android_client_info": {
+          "package_name": "com.live.programming.an21_functionalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384128229474-bbkkt77lh6d62oidbnldlhnrmgpv2876.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbecd3ye5WRMEhy2KR9n2qPlDCXPNoGXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384128229474-bbkkt77lh6d62oidbnldlhnrmgpv2876.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
